@@ -32,7 +32,7 @@
 
 .desktop .rectangle {
   position: absolute;
-  width: 635px;
+  width: 617px;
   height: 244px;
   top: 492px;
   left: 140px;
@@ -54,43 +54,63 @@
   left: 773px;
 }
 
-.desktop .muhammad-surya {
+.muhammad-surya {
   position: absolute;
+  text-align: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000;
+  font-size: 48px;
+  line-height: normal;
   width: 561px;
   height: 47px;
   top: 315px;
   left: 437px;
 }
 
-.desktop .front-end-developer {
+.front-end-developer {
   position: absolute;
+  text-align: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000;
+  font-size: 32px;
+  line-height: normal;
   width: 310px;
   height: 30px;
   top: 366px;
   left: 566px;
 }
 
-.desktop .i-started-my-coding {
+.i-started-my-coding {
   position: absolute;
   width: 573px;
   height: 129px;
   top: 578px;
   left: 164px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 5;
+  line-height: normal;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .desktop .icon-tools {
   position: absolute;
-  width: 358px;
-  height: 129px;
-  top: 575px;
+  width: 407px;
+  height: 139px;
+  top: 572px;
   left: 798px;
 }
 
-.desktop .text-wrapper {
+.text-wrapper {
   position: absolute;
   top: 518px;
   left: 163px;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter-SemiBold", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 32px;
@@ -98,12 +118,25 @@
   line-height: normal;
 }
 
+.text-wrapper p{
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: justify;
+  text-justify: inter-word;
+  word-wrap: break-word;
+  inline-size: 578px;
+}
+
 .desktop .text-wrapper-2 {
   position: absolute;
-  top: 776px;
-  left: 653px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
+  top: 518px;
+  left: 788px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
   color: #ffffff;
   font-size: 32px;
   letter-spacing: 0;
@@ -112,10 +145,10 @@
 
 .desktop .text-wrapper-3 {
   position: absolute;
-  top: 815px;
-  left: 599px;
-  font-family: "Inter", Helvetica;
-  font-weight: 600;
+  top: 776px;
+  left: 653px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
   color: #ffffff;
   font-size: 32px;
   letter-spacing: 0;
@@ -124,9 +157,9 @@
 
 .desktop .text-wrapper-4 {
   position: absolute;
-  top: 522px;
-  left: 785px;
-  font-family: "Inter", Helvetica;
+  top: 815px;
+  left: 599px;
+  font-family: "Inter-SemiBold", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 32px;
@@ -134,7 +167,7 @@
   line-height: normal;
 }
 
-.desktop .icon-instagram-icon {
+.icon-instagram-icon {
   position: absolute;
   width: 38px;
   height: 38px;
@@ -142,7 +175,7 @@
   left: 630px;
 }
 
-.desktop .icon-github {
+.icon-github {
   position: absolute;
   width: 44px;
   height: 44px;
@@ -150,7 +183,7 @@
   left: 698px;
 }
 
-.desktop .icon-email-outline {
+.icon-email-outline {
   position: absolute;
   width: 56px;
   height: 56px;
