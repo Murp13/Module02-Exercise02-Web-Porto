@@ -16,78 +16,12 @@
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 140px;
+  padding: 13px;
 }
 
 .profile-info {
   text-align: center;
   margin-top: 20px;
-}
-
-/* Profile Info */
-.muhammad-surya {
-  font-weight: 400;
-  color: #000;
-  font-size: 24px;
-}
-
-.front-end-developer {
-  font-weight: 400;
-  color: #000;
-  font-size: 18px;
-  text-align: center; /* Center-align the content */
-  margin-top: 20px; /* Add spacing between the elements */
-}
-
-/* Text Wrappers */
-.text-wrapper,
-.text-wrapper-2,
-.portofolio {
-  border-radius: 3px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px; /* Adjust margin as needed */
-}
-
-.text-wrapper {
-  background-color: #042B4B;
-  width: 617px; /* Set the width as per the brief */
-  height: 244px; /* Set the height as per the brief */
-}
-
-.text-wrapper-2 {
-  background-color: #45044B;
-  width: 460px; /* Update the width as per the brief */
-  height: 244px; /* Set the height as per the brief */
-}
-
-.portofolio {
-  background-color: #000000;
-  width: 1093px; /* Update the width as per the brief */
-  height: 149px; /* Set the height as per the brief */
-}
-
-/* Text Boxes */
-.text-wrapper .box,
-.text-wrapper-2 .box {
-  background-color: inherit;
-  border-radius: inherit;
-  padding: 10px; /* Adjust padding as needed */
-  color: #fff; /* Text color inside the box */
-  display: inline-block; /* Make the box fit the content */
-  margin-right: 10px; /* Add spacing between the box and content */
-}
-
-.text-wrapper .bio-text,
-.text-wrapper-2 .tools-image {
-  margin-top: 10px; /* Add spacing between the box and the content below */
-}
-
-.text-wrapper-2 .icon-tools {
-  max-width: 100px; /* Adjust the maximum width as needed */
-  max-height: auto; /* Allow the height to adjust proportionally */
-  vertical-align: middle; /* Vertically align the image in the box */
 }
 
 /* Social Icons */
@@ -98,43 +32,109 @@
   margin-top: 10px; /* Adjust margin-top as needed */
 }
 
+/* Modify the icon size within the social-icons */
 .social-icons img {
-  margin: 0 10px;
-  max-width: 30px;
-  max-height: 30px;
+  max-width: 30px; /* Keep the previous max-width */
+  max-height: 30px; /* Keep the previous max-height */
+  margin: 0 10px; /* Keep the previous margin */
 }
 
-/* Rectangles */
-.rectangles {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+/* Profile Info */
+.muhammad-surya {
+  font-weight: 400;
+  color: #000;
+  font-size: 24px;
+  font-family: 'Space Grotesk', sans-serif;
+  margin-bottom: 8px; /* Add margin to create space below the name */
+}
+.muhammad-surya h1 {
+  margin: 1px 0; /* Adjust the margin as needed */
 }
 
-.rectangle {
+
+.front-end-developer {
+  font-weight: 400;
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+}
+
+
+/* Text Wrappers */
+.text-wrapper,
+.text-wrapper-2,
+.portofolio {
+  background-color: #45044B; /* Set the background color for the "Tools" section */
   border-radius: 3px;
-  width: 100%;
-  max-width: 300px;
-  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  text-align: left; /* Align text to the left */
+  height: 180px;
+  font-family: 'Karla', sans-serif;
 }
 
-.rectangle-1 {
+.text-wrapper {
   background-color: #042B4B;
-  margin-right: 10px;
+  width: 617px;
+  height: 180px;
 }
 
-.rectangle-2 {
-  background-color: #45044B;
-  margin-left: 10px;
+.text-wrapper-2 .box {
+  width: 460px; /* Update the width as per the brief */
+  height: 244px; /* Set the height as per the brief */
+  display: flex; /* Change to flex layout */
+  flex-direction: column; /* Stack the text and icons vertically */
+  justify-content: flex-start; /* Align content to the top */
+  align-items: flex-start; /* Align content to the left */
+  padding: 20px; /* Adjust padding as needed */
+  color: #fff; /* Text color inside the box */
+  margin-right: 10px; /* Add spacing between the box and content */
 }
 
-.rectangle-3 {
-  background-color: #000;
-  margin-top: 10px;
+/* Adjust font size in the .bio-text class */
+.text-wrapper .bio-text p {
+  font-size: 20px; /* Set your desired font size */
+  line-height: 1.3; /* Adjust the line height to control spacing between lines */
+  margin: 10px 0; /* Adjust the top and bottom margins as needed */
+  word-spacing: normal;
 }
 
-.icon-tools {
-  max-width: 100%; /* Ensure the image takes its container's width */
-  height: auto;   /* Maintain the image's aspect ratio */
+
+
+.portofolio {
+  background-color: #000000;
+  color: #ffffff;
+  width: 1145px;
+  height: 149px;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+}
+
+/* Text Boxes */
+.text-wrapper .box,
+.text-wrapper-2 .box {
+  background-color: inherit;
+  border-radius: inherit;
+  padding: 12px;
+  color: #fff;
+  display: inline-block;
+  margin-right: 14px;
+}
+
+/* Adjust icon sizes and margins */
+.text-wrapper-2 .tools-image img {
+  max-width: 60px; /* Increase the maximum width as needed */
+  max-height: 60px; /* Increase the maximum height as needed */
+  margin-right: 30px;
+}
+
+/* Style Bio text */
+.bio-paragraph {
+  text-align: left; /* Justify text within the Bio paragraph */
+}
+.text-wrapper-3 {
+  margin-top: 10px; /* Adjust this margin as needed to control the space between text-wrapper-3 and text-wrapper-4 */
 }
