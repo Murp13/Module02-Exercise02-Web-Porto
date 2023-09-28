@@ -1,4 +1,8 @@
 /* Global styles */
+:root {
+  --d-9d-9d-9: rgba(217, 217, 217, 1);
+}
+
 .mobile-container {
   background-color: #ffffff;
   display: flex;
